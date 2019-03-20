@@ -34,7 +34,11 @@ Part Id -	Part Name<br/>
 ## Decoding the Data
 When the abc.html is run, an array object is created. <br/>This array object is then converted to .csv file format, where it contains the Part Id numbers for the image provided in the html code based on the image co-ordinates.<br/>
 
-
+## Usage
+1. Run the abc.html(Note-Replace the name of the source image file that u want to use with. The image must be of the size 640*480 resolution only).
+2.Check for the generated example_new.csv file.
+3.Run the BodyPix_latest.ipynb.(Note- Change the Part Id based on your requirement)
+4.Check for the saved results as morphed.jpg and detected_face.jpg.
 
 
 
