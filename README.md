@@ -1,7 +1,7 @@
 # Human Body Segmentation
 ## Introduction
-This program uses the BodyPix module obtained from the tf-js repository.
-When the bodypix.html is run, it gives out an object containing the values for discriminating each inidvidual part of the human body.
+This program uses the BodyPix module obtained from the tf-js repository.<br/>
+When the abc.html is run, it gives out an object containing the values for discriminating each inidvidual part of the human body.
 The program can discriminate 24 parts of the human body.<br/>
 Part Id -	Part Name<br/>
 -1 -	(no body part)<br/>
@@ -32,7 +32,7 @@ Part Id -	Part Name<br/>
 
 
 ## Decoding the Data
-When the bodypix.html is run, an array object is created. <br/>This array object is then converted to .csv file format, where it contains the Part Id numbers for the image provided in the html code based on the image co-ordinates.<br/>
+When the abc.html is run, an array object is created. <br/>This array object is then converted to .csv file format, where it contains the Part Id numbers for the image provided in the html code based on the image co-ordinates.<br/>
 
 
 The original repo - https://github.com/tensorflow/tfjs-models/tree/master/body-pix
